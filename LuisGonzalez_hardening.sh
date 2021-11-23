@@ -9,8 +9,8 @@ if [[ $version = 'VERSION_ID="8"' ]] ;
 then
   echo -e "Your are in CentOS 8"
 elif [[ $version = 'VERSION_ID="7"' ]] ;
-  then
-    echo -e "You are in CentOS 7"
+then
+  echo -e "You are in CentOS 7"
 fi
 
 #Install clamav antivirus
